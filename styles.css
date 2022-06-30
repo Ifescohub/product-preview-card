@@ -22,7 +22,6 @@ body{
     color: var(--Dark-grayish-blue);
     display: grid;
     place-items: center;
-    height: 100vh;
 
 }
 
@@ -36,7 +35,7 @@ body{
     font-weight:  500;
     line-height: 1.5;
     border-radius: 10px;
-    margin-top: -40px;
+    margin: 20px
 }
 
 /* IMAGE STYLING  */
@@ -53,6 +52,7 @@ body{
     background: var(--White);
     padding: 25px;
     border-radius: 0 0 10px 10px;
+    height: 60%;
 }
 
 .details h1{
@@ -119,9 +119,8 @@ button img{
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    position: absolute;
-    bottom: 5px;
     color: var(--Dark-grayish-blue);
+    margin: 20px;
  }
 
 .attribution a {
@@ -135,6 +134,10 @@ button img{
 
 
 @media (min-width: 680px) {
+    body{
+        height: 100vh;
+    }
+
     /* CONTAINER STYLING  */
     .container{
         width: 34rem;
@@ -148,6 +151,7 @@ button img{
         height: 100%;
         background: no-repeat url(./images/image-product-desktop.jpg);
         background-size: 100%;
+        border-radius: 10px 0 0 10px;
     }
     
     /* DESCRIPTION SECTION  */
