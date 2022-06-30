@@ -35,7 +35,7 @@ body{
     font-weight:  500;
     line-height: 1.5;
     border-radius: 10px;
-    margin: 20px
+    margin: 20px auto;
 }
 
 /* IMAGE STYLING  */
@@ -52,7 +52,7 @@ body{
     background: var(--White);
     padding: 25px;
     border-radius: 0 0 10px 10px;
-    height: 60%;
+    height: fit-content;
 }
 
 .details h1{
