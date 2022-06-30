@@ -30,7 +30,6 @@ body{
     max-width: 85%;
     width: 22rem;
     height: 550px;
-    max-height: 95vh;
     font-family: var(--font1);
     font-weight:  500;
     line-height: 1.5;
@@ -41,7 +40,7 @@ body{
 /* IMAGE STYLING  */
 .image{
     width: 100%;
-    height: 40%;
+    height: 35%;
     background: no-repeat url(./images/image-product-mobile.jpg);
     background-size: 100%;
     border-radius: 10px 10px 0 0;
@@ -52,7 +51,7 @@ body{
     background: var(--White);
     padding: 25px;
     border-radius: 0 0 10px 10px;
-    height: fit-content;
+    height: 65%;
 }
 
 .details h1{
