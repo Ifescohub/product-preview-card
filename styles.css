@@ -29,7 +29,8 @@ body{
 .container{
     max-width: 85%;
     width: 22rem;
-    height: 550px;
+    height: 600px;
+    min-height: fit-content;
     font-family: var(--font1);
     font-weight:  500;
     line-height: 1.5;
@@ -191,4 +192,8 @@ button img{
         padding: 12px 0;
         font-size: 12px;
     }
+
+    .attribution { 
+        margin: 10px;
+     }
 }
